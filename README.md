@@ -21,3 +21,9 @@ Outputs are needed for the following platforms:
 - FreeBSD x86_64
 - Windows i686
 - Windows x86_64
+
+
+Sources:
+Note the test files `HDFTests.c`, `ConversionTests.c`, `Makefile`, are copied from https://github.com/steven-varga/HDFGroup-mailinglist/tree/master/crosscompile-2020-mar-25 by @steven-varga. They are copied here for conveience and to make uploading the outputs easier along with the `sh` script. 
+
+ 
