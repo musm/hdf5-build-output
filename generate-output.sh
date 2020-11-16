@@ -1,5 +1,7 @@
 #!/bin/bash
 
+rm -rf build
+
 echo "% uname -m -o" > output.txt
 uname -m -o >> output.txt 2>&1
 

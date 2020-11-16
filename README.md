@@ -4,8 +4,8 @@ $ gcc -dumpmachine
 $ make
 $ make conversion-dump
 $ make try-dump
-``` 
-
+```
+Even simpler, just run `generate-output.sh`.
 
 Outputs are needed for the following platforms:
 - Linux i686 {libc=glibc}
