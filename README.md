@@ -1,4 +1,6 @@
-The point of this repo is to upload platform depedent variables that HDF5 uses in the compilation process. The goal is to use these outputs to enable easy cross-compilation to various target systems.
+The point of this repo is to upload platform dependent variables that HDF5 uses in the compilation process. The goal is to use these outputs to enable easy cross-compilation to various target systems.
+
+## Steps
 
 Clone this repo then run the following and paste the output to this repo in a PR
 ```
@@ -7,7 +9,7 @@ $ make
 $ make conversion-dump
 $ make try-dump
 ```
-**Even simpler, just run `generate-output.sh`.**
+**Even simpler, just run `generate-output.sh`** and open a PR that adds the `txt` file to the [/outputs](/outputs) folder.
 
 Outputs are needed for the following platforms:
 - Linux i686 {libc=glibc}
