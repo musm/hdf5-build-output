@@ -1,3 +1,5 @@
+The point of this repo is to upload platform depedent variables that HDF5 uses in the compilation process. The goal is to use these outputs to enable easy cross-compilation to various target systems.
+
 Clone this repo then run the following and paste the output to this repo in a PR
 ```
 $ gcc -dumpmachine
@@ -22,8 +24,10 @@ Outputs are needed for the following platforms:
 - Windows i686
 - Windows x86_64
 
+The database is available in the directory [/outputs](/outputs)
 
-Sources:
-Note the test files `HDFTests.c`, `ConversionTests.c`, `Makefile`, are copied from https://github.com/steven-varga/HDFGroup-mailinglist/tree/master/crosscompile-2020-mar-25 by @steven-varga. They are copied here for conveience and to make uploading the outputs easier along with the `sh` script. 
+
+## Source
+The files `HDFTests.c`, `ConversionTests.c`, `Makefile` are copied from https://github.com/steven-varga/HDFGroup-mailinglist/tree/master/crosscompile-2020-mar-25 by @steven-varga, for conveiences' sake to make uploading results easier.  
 
  
