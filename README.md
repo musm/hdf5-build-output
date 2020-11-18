@@ -30,6 +30,6 @@ The database is available in the directory [/outputs](/outputs)
 
 
 ## Credit
-The files `HDFTests.c`, `ConversionTests.c`, `Makefile` are copied from [@steven-varga](https://github.com/steven-varga)'s repo https://github.com/steven-varga/HDFGroup-mailinglist/tree/master/crosscompile-2020-mar-25 for conveniences' sake. Please note their respective licenses.   
+The files `HDFTests.c`, `ConversionTests.c`, `Makefile` are copied from [@steven-varga](https://github.com/steven-varga)'s repo https://github.com/steven-varga/HDFGroup-mailinglist/tree/master/crosscompile-2020-mar-25 for convenience. Please note their respective licenses.   
 
  
